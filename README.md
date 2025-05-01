@@ -30,8 +30,11 @@ Created a Python simulator for CPU scheduling (FCFS, SJF, RR), reducing waiting 
 GitHub Repository
 
 Get in Touch
-mspb23012007@gmail.com-PERSONAL MAIL
-cb.sc.u4aie24029@cb.students.amrita.edu-STUDENT MAIL
+mspb23012007@gmail.com
+-PERSONAL MAIL
+
+cb.sc.u4aie24029@cb.students.amrita.edu
+-STUDENT MAIL
 I’m open to internships and collaborations in AI, computer vision, and systems programming. Feel free to connect via the links above!
 GitHub Stats
 
