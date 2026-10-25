@@ -83,7 +83,7 @@
 
 ### 👨‍💻 About Me
 
-I am an **AI Researcher and Systems Developer** pursuing my B.Tech in **Computer Science and Engineering (Artificial Intelligence)** at **Amrita Vishwa Vidyapeetham, Coimbatore** (CGPA: 7.92).
+I am a **Third-Year B.Tech student in Computer Science and Engineering (Artificial Intelligence)** at **Amrita Vishwa Vidyapeetham, Coimbatore** (CGPA: 7.64), specializing in AI research and systems engineering.
 
 I am the creator of **[Coast](https://play.google.com/store/apps/details?id=in.coastapp.app&hl=en)**, a production peer-to-peer ride-sharing application currently live on the **Google Play Store**. My broader work bridges **mathematical deep learning research** and **full-stack systems engineering**:
 
