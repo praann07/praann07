@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 180" width="100%" height="180" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&amp;display=swap');
+
+      .bg { fill: #09090b; }
+      .block { fill: #121216; stroke: #27272a; stroke-width: 1; rx: 4; }
+      .block-accent { fill: #18191f; stroke: #d4ff00; stroke-width: 1.2; rx: 4; }
+      
+      .text-title {
+        font-family: 'JetBrains Mono', Consolas, monospace;
+        font-weight: 700;
+        font-size: 11px;
+        fill: #f4f4f5;
+        letter-spacing: 0.5px;
+      }
+      
+      .text-dim {
+        font-family: 'JetBrains Mono', Consolas, monospace;
+        font-weight: 400;
+        font-size: 9.5px;
+        fill: #71717a;
+      }
+
+      .text-accent {
+        font-family: 'JetBrains Mono', Consolas, monospace;
+        font-weight: 700;
+        font-size: 10px;
+        fill: #d4ff00;
+      }
+
+      .wire {
+        stroke: #3f3f46;
+        stroke-width: 1.5;
+        fill: none;
+      }
+
+      .wire-accent {
+        stroke: #d4ff00;
+        stroke-width: 1.5;
+        stroke-dasharray: 4 2;
+        fill: none;
+        animation: flow 1.5s linear infinite;
+      }
+
+      @keyframes flow {
+        from { stroke-dashoffset: 12; }
+        to { stroke-dashoffset: 0; }
+      }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#71717a" />
+    </marker>
+    <marker id="arrow-accent" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#d4ff00" />
+    </marker>
+  </defs>
+
+  <rect width="920" height="180" rx="6" class="bg" />
+  <rect x="5" y="5" width="910" height="170" rx="5" fill="none" stroke="#27272a" stroke-width="1" />
+
+  <!-- Title / Legend Bar -->
+  <text x="24" y="26" class="text-accent">PIPELINE ARCHITECTURE // WAFEVUSION-NET &amp; ATTENTION-ENHANCED U-NET</text>
+  <text x="730" y="26" class="text-dim">DUAL-DOMAIN DECOUPLING</text>
+  <line x1="20" y1="36" x2="900" y2="36" stroke="#1f1f23" stroke-width="1" />
+
+  <!-- Node 1: Input -->
+  <g transform="translate(24, 52)">
+    <rect width="135" height="100" class="block" />
+    <line x1="0" y1="0" x2="3" y2="100" stroke="#71717a" stroke-width="3" />
+    <text x="14" y="26" class="text-title">DEGRADED INPUT</text>
+    <text x="14" y="44" class="text-dim">x ∈ ℝ^{B×3×H×W}</text>
+    <text x="14" y="66" class="text-dim">• Dynamic Motion Blur</text>
+    <text x="14" y="82" class="text-dim">• RealBlur-J / GoPro</text>
+  </g>
+
+  <!-- Connect 1 -> 2 -->
+  <line x1="159" y1="102" x2="185" y2="102" class="wire" marker-end="url(#arrow)" />
+
+  <!-- Node 2: Frequency & Spatial Split -->
+  <g transform="translate(187, 52)">
+    <rect width="165" height="100" class="block" />
+    <line x1="0" y1="0" x2="3" y2="100" stroke="#a1a1aa" stroke-width="3" />
+    <text x="14" y="26" class="text-title">WAVELET TRANSFORM</text>
+    <text x="14" y="44" class="text-dim">Sub-band Decoupling</text>
+    <text x="14" y="66" class="text-accent">• Low Freq (LL) Structural</text>
+    <text x="14" y="82" class="text-dim">• High Freq (LH, HL, HH)</text>
+  </g>
+
+  <!-- Connect 2 -> 3 -->
+  <line x1="352" y1="102" x2="378" y2="102" class="wire-accent" marker-end="url(#arrow-accent)" />
+
+  <!-- Node 3: StripAttention Core -->
+  <g transform="translate(380, 52)">
+    <rect width="180" height="100" class="block-accent" />
+    <line x1="0" y1="0" x2="3" y2="100" stroke="#d4ff00" stroke-width="3" />
+    <text x="14" y="26" class="text-accent">STRIP-ATTENTION CORE</text>
+    <text x="14" y="44" class="text-dim">Multi-Scale Skip Gates</text>
+    <text x="14" y="66" class="text-dim">• Anisotropic Kernels</text>
+    <text x="14" y="82" class="text-dim">• Cross-Domain Fusion</text>
+  </g>
+
+  <!-- Connect 3 -> 4 -->
+  <line x1="560" y1="102" x2="586" y2="102" class="wire" marker-end="url(#arrow)" />
+
+  <!-- Node 4: Composite Loss Formulation -->
+  <g transform="translate(588, 52)">
+    <rect width="155" height="100" class="block" />
+    <line x1="0" y1="0" x2="3" y2="100" stroke="#71717a" stroke-width="3" />
+    <text x="14" y="26" class="text-title">COMPOSITE CRITERION</text>
+    <text x="14" y="44" class="text-dim">Joint Loss Formulation</text>
+    <text x="14" y="66" class="text-dim">• ℒ_charbonnier + ℒ_freq</text>
+    <text x="14" y="82" class="text-dim">• Perceptual VGG Prior</text>
+  </g>
+
+  <!-- Connect 4 -> 5 -->
+  <line x1="743" y1="102" x2="769" y2="102" class="wire-accent" marker-end="url(#arrow-accent)" />
+
+  <!-- Node 5: Restored High-Fidelity Output -->
+  <g transform="translate(771, 52)">
+    <rect width="125" height="100" class="block-accent" />
+    <line x1="0" y1="0" x2="3" y2="100" stroke="#d4ff00" stroke-width="3" />
+    <text x="12" y="26" class="text-accent">RESTORED LATENT</text>
+    <text x="12" y="44" class="text-dim">x̂ ∈ ℝ^{B×3×H×W}</text>
+    <text x="12" y="66" class="text-dim">• Sharp Edge Recovery</text>
+    <text x="12" y="82" class="text-accent">High PSNR / SSIM</text>
+  </g>
+</svg>

@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 260" width="100%" height="260" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&amp;family=Syne:wght@700;800&amp;display=swap');
+
+      .bg { fill: #09090b; }
+      .panel { fill: #101014; stroke: #27272a; stroke-width: 1; }
+      .grid-line { stroke: #1e1e24; stroke-width: 0.75; stroke-dasharray: 4 4; }
+      .crosshair { stroke: #3f3f46; stroke-width: 1; }
+      
+      .title {
+        font-family: 'Syne', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-weight: 800;
+        font-size: 32px;
+        fill: #f4f4f5;
+        letter-spacing: -0.5px;
+      }
+      
+      .mono-heavy {
+        font-family: 'JetBrains Mono', 'SF Mono', Consolas, monospace;
+        font-weight: 700;
+        font-size: 13px;
+        fill: #d4ff00;
+        letter-spacing: 1px;
+      }
+
+      .mono-light {
+        font-family: 'JetBrains Mono', 'SF Mono', Consolas, monospace;
+        font-weight: 400;
+        font-size: 11px;
+        fill: #71717a;
+        letter-spacing: 0.5px;
+      }
+
+      .mono-tag {
+        font-family: 'JetBrains Mono', 'SF Mono', Consolas, monospace;
+        font-weight: 600;
+        font-size: 10px;
+        fill: #a1a1aa;
+        letter-spacing: 0.5px;
+      }
+
+      .mono-active {
+        font-family: 'JetBrains Mono', 'SF Mono', Consolas, monospace;
+        font-weight: 500;
+        font-size: 12px;
+        fill: #e4e4e7;
+        letter-spacing: 0.3px;
+      }
+
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+
+      @keyframes pulse-dot {
+        0%, 100% { fill: #d4ff00; opacity: 1; r: 4px; }
+        50% { fill: #a3e635; opacity: 0.4; r: 3px; }
+      }
+
+      @keyframes radar-sweep {
+        0% { transform: translateX(0px); opacity: 0; }
+        20% { opacity: 0.6; }
+        80% { opacity: 0.6; }
+        100% { transform: translateX(880px); opacity: 0; }
+      }
+
+      .cursor {
+        animation: blink 1s infinite;
+        fill: #d4ff00;
+      }
+
+      .beacon {
+        animation: pulse-dot 2s infinite ease-in-out;
+      }
+
+      .scanner-beam {
+        animation: radar-sweep 6s infinite linear;
+      }
+    </style>
+
+    <linearGradient id="scanner-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d4ff00" stop-opacity="0" />
+      <stop offset="50%" stop-color="#d4ff00" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#d4ff00" stop-opacity="0" />
+    </linearGradient>
+
+    <pattern id="grid-pattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#18181b" stroke-width="0.75" />
+      <circle cx="0" cy="0" r="1" fill="#27272a" />
+    </pattern>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="920" height="260" rx="8" class="bg" />
+  
+  <!-- Subtle Architectural Grid Pattern -->
+  <rect x="10" y="10" width="900" height="240" rx="6" fill="url(#grid-pattern)" />
+  
+  <!-- Outer Technical Bounding Box -->
+  <rect x="10" y="10" width="900" height="240" rx="6" fill="none" stroke="#27272a" stroke-width="1.2" />
+
+  <!-- Scanning Beam Effect -->
+  <rect x="10" y="10" width="80" height="240" fill="url(#scanner-grad)" class="scanner-beam" />
+
+  <!-- Corner Crosshairs -->
+  <path d="M 18 25 L 28 25 M 23 20 L 23 30" class="crosshair" />
+  <path d="M 892 25 L 902 25 M 897 20 L 897 30" class="crosshair" />
+  <path d="M 18 235 L 28 235 M 23 230 L 23 240" class="crosshair" />
+  <path d="M 892 235 L 902 235 M 897 230 L 897 240" class="crosshair" />
+
+  <!-- Header Coordinate / Header Strip -->
+  <line x1="10" y1="46" x2="910" y2="46" stroke="#27272a" stroke-width="1" />
+  
+  <text x="32" y="32" class="mono-heavy">SYS.TENSOR // ARCHIVE.2026</text>
+  <text x="240" y="32" class="mono-light">LATENT DIM: [B, C, H, W] ⊗ W_Q W_K^T</text>
+  
+  <!-- Status Indicator Beacon -->
+  <circle cx="770" cy="28" r="4" class="beacon" />
+  <text x="782" y="32" class="mono-heavy" style="fill: #f4f4f5;">STATE: IEEE NIGERCON '26</text>
+
+  <!-- Main Hero Identity -->
+  <g transform="translate(32, 98)">
+    <text x="0" y="0" class="title">MAMIDALA SOM PRANEETH BABU</text>
+    
+    <!-- Tag Pill / Domain Badge -->
+    <rect x="0" y="18" width="102" height="20" rx="3" fill="#18181b" stroke="#3f3f46" stroke-width="0.8" />
+    <text x="8" y="32" class="mono-heavy" style="font-size: 10px;">HANDLE: PRAANN07</text>
+    
+    <text x="114" y="32" class="mono-light" style="font-size: 11px; fill: #a1a1aa;">
+      RESEARCHER // COMPUTER VISION // ATTENTION DYNAMICS // ENSEMBLE AI
+    </text>
+  </g>
+
+  <!-- Live Telemetry / Terminal Readout Bar -->
+  <g transform="translate(32, 168)">
+    <rect x="0" y="0" width="856" height="34" rx="4" class="panel" />
+    <line x1="0" y1="0" x2="3" y2="34" stroke="#d4ff00" stroke-width="4" />
+    
+    <text x="16" y="21" class="mono-tag" style="fill: #71717a;">DIAGNOSTIC_FEED:</text>
+    <text x="135" y="21" class="mono-active">
+      WaveFusion-Net &amp; Multi-Scale Attention-Enhanced U-Net for High-Fidelity Deblurring
+    </text>
+    <rect x="740" y="10" width="7" height="14" class="cursor" />
+  </g>
+
+  <!-- Bottom Technical Metrics Footer -->
+  <line x1="10" y1="220" x2="910" y2="220" stroke="#27272a" stroke-width="1" />
+  
+  <text x="32" y="238" class="mono-tag">AFFILIATION: AMRITA UNIVERSITY COIMBATORE</text>
+  <text x="360" y="238" class="mono-tag">BENCHMARKS: REALBLUR-J • GOPRO • COMPOSITE LOSS</text>
+  <text x="735" y="238" class="mono-heavy" style="font-size: 10px;">SECURITY: REPRODUCIBLE SPLITS</text>
+</svg>
