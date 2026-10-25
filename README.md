@@ -35,12 +35,6 @@
 ### Activity
 
 <div align="center">
-  <img src="https://ghchart.rshah.org/praann07" width="100%" alt="Contribution Graph" />
-</div>
-
-<br/>
-
-<div align="center">
   <a href="https://github.com/praann07">
     <img src="https://img.shields.io/badge/Annual_Activity-471_Contributions_Last_Year-38BDF8?style=for-the-badge&logo=github&logoColor=white" alt="471 Contributions" />
   </a>
