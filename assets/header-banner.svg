@@ -1,153 +1,120 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 260" width="100%" height="260" preserveAspectRatio="xMidYMid meet">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 230" width="100%" height="230" preserveAspectRatio="xMidYMid meet">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&amp;family=Syne:wght@700;800&amp;display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&amp;family=JetBrains+Mono:wght@500;600&amp;display=swap');
 
-      .bg { fill: #09090b; }
-      .panel { fill: #101014; stroke: #27272a; stroke-width: 1; }
-      .grid-line { stroke: #1e1e24; stroke-width: 0.75; stroke-dasharray: 4 4; }
-      .crosshair { stroke: #3f3f46; stroke-width: 1; }
-      
-      .title {
-        font-family: 'Syne', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      .name-text {
+        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
         font-weight: 800;
-        font-size: 32px;
-        fill: #f4f4f5;
+        font-size: 30px;
+        fill: #FFFFFF;
         letter-spacing: -0.5px;
       }
-      
-      .mono-heavy {
-        font-family: 'JetBrains Mono', 'SF Mono', Consolas, monospace;
-        font-weight: 700;
-        font-size: 13px;
-        fill: #d4ff00;
-        letter-spacing: 1px;
-      }
 
-      .mono-light {
-        font-family: 'JetBrains Mono', 'SF Mono', Consolas, monospace;
-        font-weight: 400;
-        font-size: 11px;
-        fill: #71717a;
-        letter-spacing: 0.5px;
-      }
-
-      .mono-tag {
-        font-family: 'JetBrains Mono', 'SF Mono', Consolas, monospace;
+      .role-badge {
+        font-family: 'JetBrains Mono', Consolas, monospace;
         font-weight: 600;
-        font-size: 10px;
-        fill: #a1a1aa;
-        letter-spacing: 0.5px;
+        font-size: 11px;
+        fill: #38BDF8;
+        letter-spacing: 1.5px;
       }
 
-      .mono-active {
-        font-family: 'JetBrains Mono', 'SF Mono', Consolas, monospace;
-        font-weight: 500;
-        font-size: 12px;
-        fill: #e4e4e7;
-        letter-spacing: 0.3px;
+      .sub-text {
+        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-weight: 600;
+        font-size: 13.5px;
+        fill: #94A3B8;
+        letter-spacing: -0.2px;
       }
 
-      @keyframes blink {
-        0%, 49% { opacity: 1; }
-        50%, 100% { opacity: 0; }
+      .pill-text {
+        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-weight: 600;
+        font-size: 11.5px;
+        fill: #E2E8F0;
       }
 
-      @keyframes pulse-dot {
-        0%, 100% { fill: #d4ff00; opacity: 1; r: 4px; }
-        50% { fill: #a3e635; opacity: 0.4; r: 3px; }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.45; }
+        50% { opacity: 0.75; }
       }
 
-      @keyframes radar-sweep {
-        0% { transform: translateX(0px); opacity: 0; }
-        20% { opacity: 0.6; }
-        80% { opacity: 0.6; }
-        100% { transform: translateX(880px); opacity: 0; }
-      }
-
-      .cursor {
-        animation: blink 1s infinite;
-        fill: #d4ff00;
-      }
-
-      .beacon {
-        animation: pulse-dot 2s infinite ease-in-out;
-      }
-
-      .scanner-beam {
-        animation: radar-sweep 6s infinite linear;
+      .glow-layer {
+        animation: pulseGlow 4s ease-in-out infinite;
       }
     </style>
 
-    <linearGradient id="scanner-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#d4ff00" stop-opacity="0" />
-      <stop offset="50%" stop-color="#d4ff00" stop-opacity="0.15" />
-      <stop offset="100%" stop-color="#d4ff00" stop-opacity="0" />
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F19" />
+      <stop offset="50%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#090D16" />
     </linearGradient>
 
-    <pattern id="grid-pattern" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#18181b" stroke-width="0.75" />
-      <circle cx="0" cy="0" r="1" fill="#27272a" />
+    <radialGradient id="radialCyan" cx="90%" cy="10%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="radialIndigo" cx="10%" cy="90%" r="50%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0" />
+    </radialGradient>
+
+    <pattern id="dotPattern" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#1E293B" opacity="0.6" />
     </pattern>
   </defs>
 
-  <!-- Background Base -->
-  <rect width="920" height="260" rx="8" class="bg" />
+  <!-- Card Background -->
+  <rect width="940" height="230" rx="12" fill="url(#bgGrad)" stroke="#1E293B" stroke-width="1.2" />
   
-  <!-- Subtle Architectural Grid Pattern -->
-  <rect x="10" y="10" width="900" height="240" rx="6" fill="url(#grid-pattern)" />
-  
-  <!-- Outer Technical Bounding Box -->
-  <rect x="10" y="10" width="900" height="240" rx="6" fill="none" stroke="#27272a" stroke-width="1.2" />
+  <!-- Subtle Dot Grid Matrix -->
+  <rect x="2" y="2" width="936" height="226" rx="10" fill="url(#dotPattern)" />
 
-  <!-- Scanning Beam Effect -->
-  <rect x="10" y="10" width="80" height="240" fill="url(#scanner-grad)" class="scanner-beam" />
+  <!-- Ambient Glow Highlights -->
+  <rect width="940" height="230" rx="12" fill="url(#radialCyan)" class="glow-layer" />
+  <rect width="940" height="230" rx="12" fill="url(#radialIndigo)" class="glow-layer" />
 
-  <!-- Corner Crosshairs -->
-  <path d="M 18 25 L 28 25 M 23 20 L 23 30" class="crosshair" />
-  <path d="M 892 25 L 902 25 M 897 20 L 897 30" class="crosshair" />
-  <path d="M 18 235 L 28 235 M 23 230 L 23 240" class="crosshair" />
-  <path d="M 892 235 L 902 235 M 897 230 L 897 240" class="crosshair" />
+  <!-- Top Accent Bar -->
+  <path d="M 12 1 L 928 1" stroke="url(#radialCyan)" stroke-width="2" stroke-linecap="round" />
 
-  <!-- Header Coordinate / Header Strip -->
-  <line x1="10" y1="46" x2="910" y2="46" stroke="#27272a" stroke-width="1" />
-  
-  <text x="32" y="32" class="mono-heavy">SYS.TENSOR // ARCHIVE.2026</text>
-  <text x="240" y="32" class="mono-light">LATENT DIM: [B, C, H, W] ⊗ W_Q W_K^T</text>
-  
-  <!-- Status Indicator Beacon -->
-  <circle cx="770" cy="28" r="4" class="beacon" />
-  <text x="782" y="32" class="mono-heavy" style="fill: #f4f4f5;">STATE: IEEE NIGERCON '26</text>
+  <!-- Content Group -->
+  <g transform="translate(42, 42)">
+    <!-- Role Eyebrow Tag -->
+    <rect x="0" y="0" width="235" height="24" rx="12" fill="#0C4A6E" fill-opacity="0.35" stroke="#0284C7" stroke-width="0.8" />
+    <circle cx="12" cy="12" r="4" fill="#38BDF8" />
+    <text x="24" y="16" class="role-badge">RESEARCHER &amp; DEVELOPER</text>
 
-  <!-- Main Hero Identity -->
-  <g transform="translate(32, 98)">
-    <text x="0" y="0" class="title">MAMIDALA SOM PRANEETH BABU</text>
-    
-    <!-- Tag Pill / Domain Badge -->
-    <rect x="0" y="18" width="102" height="20" rx="3" fill="#18181b" stroke="#3f3f46" stroke-width="0.8" />
-    <text x="8" y="32" class="mono-heavy" style="font-size: 10px;">HANDLE: PRAANN07</text>
-    
-    <text x="114" y="32" class="mono-light" style="font-size: 11px; fill: #a1a1aa;">
-      RESEARCHER // COMPUTER VISION // ATTENTION DYNAMICS // ENSEMBLE AI
-    </text>
+    <!-- Main Name -->
+    <text x="0" y="56" class="name-text">Mamidala Som Praneeth Babu</text>
+
+    <!-- Affiliation / Academic Track -->
+    <text x="0" y="82" class="sub-text">B.Tech CSE (Artificial Intelligence) • Amrita Vishwa Vidyapeetham, Coimbatore</text>
+
+    <!-- Project Focus Feature Pills -->
+    <g transform="translate(0, 110)">
+      <!-- Pill 1: Computer Vision -->
+      <rect x="0" y="0" width="190" height="28" rx="14" fill="#1E293B" fill-opacity="0.8" stroke="#334155" stroke-width="1" />
+      <text x="14" y="18" class="pill-text">🔬 Computer Vision &amp; U-Net</text>
+
+      <!-- Pill 2: Mechanistic Interpretability -->
+      <rect x="202" y="0" width="185" height="28" rx="14" fill="#1E293B" fill-opacity="0.8" stroke="#334155" stroke-width="1" />
+      <text x="14" y="18" class="pill-text" transform="translate(202, 0)">🧠 LLM Causal Tracing</text>
+
+      <!-- Pill 3: Autonomous Robotics -->
+      <rect x="399" y="0" width="180" height="28" rx="14" fill="#1E293B" fill-opacity="0.8" stroke="#334155" stroke-width="1" />
+      <text x="14" y="18" class="pill-text" transform="translate(399, 0)">🛸 Autonomous Drones</text>
+
+      <!-- Pill 4: Mobile & Systems -->
+      <rect x="591" y="0" width="185" height="28" rx="14" fill="#1E293B" fill-opacity="0.8" stroke="#334155" stroke-width="1" />
+      <text x="14" y="18" class="pill-text" transform="translate(591, 0)">📱 Mobile &amp; System Apps</text>
+    </g>
   </g>
 
-  <!-- Live Telemetry / Terminal Readout Bar -->
-  <g transform="translate(32, 168)">
-    <rect x="0" y="0" width="856" height="34" rx="4" class="panel" />
-    <line x1="0" y1="0" x2="3" y2="34" stroke="#d4ff00" stroke-width="4" />
-    
-    <text x="16" y="21" class="mono-tag" style="fill: #71717a;">DIAGNOSTIC_FEED:</text>
-    <text x="135" y="21" class="mono-active">
-      WaveFusion-Net &amp; Multi-Scale Attention-Enhanced U-Net for High-Fidelity Deblurring
-    </text>
-    <rect x="740" y="10" width="7" height="14" class="cursor" />
+  <!-- Right Decorative Subtle Graphic -->
+  <g transform="translate(810, 50)" opacity="0.35">
+    <circle cx="45" cy="45" r="40" fill="none" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="6 4" />
+    <circle cx="45" cy="45" r="26" fill="none" stroke="#6366F1" stroke-width="1.2" />
+    <circle cx="45" cy="45" r="8" fill="#38BDF8" />
   </g>
-
-  <!-- Bottom Technical Metrics Footer -->
-  <line x1="10" y1="220" x2="910" y2="220" stroke="#27272a" stroke-width="1" />
-  
-  <text x="32" y="238" class="mono-tag">AFFILIATION: AMRITA UNIVERSITY COIMBATORE</text>
-  <text x="360" y="238" class="mono-tag">BENCHMARKS: REALBLUR-J • GOPRO • COMPOSITE LOSS</text>
-  <text x="735" y="238" class="mono-heavy" style="font-size: 10px;">SECURITY: REPRODUCIBLE SPLITS</text>
 </svg>
