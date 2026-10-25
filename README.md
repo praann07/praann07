@@ -5,30 +5,28 @@
 
   <!-- Dynamic Typing Subtitle -->
   <a href="https://github.com/PRAANN07">
-    <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=600&size=20&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&height=45&lines=AI+%26+Deep+Learning+Researcher;Computer+Vision+%26+Wavelet+Image+Deblurring;Mechanistic+Interpretability+%26+Causal+Tracing;Robotics+%26+Autonomous+Drone+Control;Full-Stack+Mobile+%26+Systems+Engineer" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=600&size=20&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&height=45&lines=Creator+of+Coast+(Live+on+Google+Play+Store);AI+%26+Deep+Learning+Researcher;Computer+Vision+%26+Wavelet+Image+Deblurring;Mechanistic+Interpretability+%26+Causal+Tracing;Robotics+%26+Autonomous+Drone+Control;Full-Stack+Mobile+%26+Systems+Engineer" alt="Typing SVG" />
   </a>
 
   <br/>
 
-  <!-- Social & Coordinates Badges -->
+  <!-- Featured Production App Quick-Links -->
   <p align="center">
+    <a href="https://play.google.com/store/apps/details?id=in.coastapp.app&hl=en" target="_blank">
+      <img src="https://img.shields.io/badge/Google_Play-Coast_App-34A853?style=for-the-badge&logo=googleplay&logoColor=white" alt="Google Play Store" />
+    </a>
+    &nbsp;
+    <a href="https://coastapp.in/" target="_blank">
+      <img src="https://img.shields.io/badge/Website-coastapp.in-0284C7?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Official Website" />
+    </a>
+    &nbsp;
     <a href="https://www.linkedin.com/in/som-praneeth-babu-mamidala-788441216/" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-Som_Praneeth_Babu-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+      <img src="https://img.shields.io/badge/LinkedIn-Som_Praneeth_Babu-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
     &nbsp;
     <a href="mailto:mspb23012007@gmail.com">
-      <img src="https://img.shields.io/badge/Email-mspb23012007%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Personal Email" />
+      <img src="https://img.shields.io/badge/Email-mspb23012007%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Personal Email" />
     </a>
-    &nbsp;
-    <a href="mailto:cb.sc.u4aie24029@cb.students.amrita.edu">
-      <img src="https://img.shields.io/badge/Student_Email-Amrita_University-4285F4?style=flat-square&logo=google-messages&logoColor=white" alt="Student Email" />
-    </a>
-    &nbsp;
-    <a href="https://github.com/PRAANN07">
-      <img src="https://img.shields.io/badge/GitHub-PRAANN07-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-    </a>
-    &nbsp;
-    <img src="https://img.shields.io/badge/Location-Coimbatore%2C_India-10B981?style=flat-square&logo=google-maps&logoColor=white" alt="Location" />
   </p>
 </div>
 
@@ -38,11 +36,54 @@
 
 I am an **AI Researcher and Systems Developer** pursuing my B.Tech in **Computer Science and Engineering (Artificial Intelligence)** at **Amrita Vishwa Vidyapeetham, Coimbatore** (CGPA: 7.92).
 
-My work bridges **mathematical AI research** and **practical systems engineering**:
+I am the creator of **[Coast](https://play.google.com/store/apps/details?id=in.coastapp.app&hl=en)**, a production peer-to-peer ride-sharing application currently live on the **Google Play Store**. My broader work bridges **mathematical deep learning research** and **full-stack systems engineering**:
+
+- 🚀 **Production Mobile Applications:** Built and deployed **Coast** from inception to Google Play Store using Expo, React Native, and Supabase.
 - 🔬 **Computer Vision & Image Restoration:** Engineering frequency-spatial decoupling architectures, wavelet transforms, and attention mechanisms for blind motion deblurring (**IEEE NIGERCON '26**, **ICRAIC2IT-2025**).
 - 🧠 **Mechanistic Interpretability:** Investigating cross-lingual causal tracing and factual editing in open-weight LLMs (Llama-3.2, Gemma-2) via representation and activation patching.
 - 🛸 **Cyber-Physical Systems & Robotics:** Developing voice-controlled autonomous quadcopters with ESP32 microcontrollers and simulating non-linear flight dynamics in MuJoCo.
-- 📱 **Full-Stack & Systems:** Building real-world mobile platforms (Coast ride-sharing with React Native & Supabase) and OS kernel simulators in C and Python.
+- 💻 **Operating Systems & Systems:** Building kernel simulators demonstrating process scheduling, deadlock handling, and hardware fault injection in C and Python.
+
+---
+
+### 🚀 Spotlight: Coast — Live on Google Play Store
+
+<div align="center">
+  <table width="100%">
+    <tr>
+      <td width="65%" valign="top">
+        <h3><a href="https://play.google.com/store/apps/details?id=in.coastapp.app&hl=en">Coast: Peer-to-Peer Ride Sharing</a></h3>
+        <p><strong>"You're not the only one heading that way."</strong> Coast is a community-driven ride-sharing mobile application that connects commuters heading along the same route to share rides and split transit costs.</p>
+        <p><strong>Key Engineering &amp; Architectural Features:</strong></p>
+        <ul>
+          <li><strong>Cross-Platform Mobile Client:</strong> Engineered with React Native and Expo for performant Android deployment.</li>
+          <li><strong>Real-Time Geospatial Backend:</strong> Powered by Supabase &amp; PostgreSQL with spatial distance matching.</li>
+          <li><strong>Privacy-First Location Fuzzing:</strong> User coordinates are algorithmically nudged 60–180m before database storage so precise home/work locations are never stored.</li>
+          <li><strong>Gated Contact Sharing:</strong> Direct contact phone numbers are only unlocked upon mutual ride confirmation.</li>
+          <li><strong>Zero-Commission Model:</strong> Peer-to-peer direct settlement with no in-app cut or platform surcharge.</li>
+        </ul>
+        <p>
+          <a href="https://play.google.com/store/apps/details?id=in.coastapp.app&hl=en">
+            <img src="https://img.shields.io/badge/Google_Play-Install_Now-34A853?style=flat-square&logo=googleplay&logoColor=white" alt="Play Store" />
+          </a>
+          &nbsp;
+          <a href="https://coastapp.in/">
+            <img src="https://img.shields.io/badge/Official_Site-coastapp.in-0284C7?style=flat-square&logo=googlechrome&logoColor=white" alt="Website" />
+          </a>
+          &nbsp;
+          <a href="https://github.com/praann07/coast-app">
+            <img src="https://img.shields.io/badge/GitHub-coast--app-181717?style=flat-square&logo=github&logoColor=white" alt="Repo" />
+          </a>
+        </p>
+      </td>
+      <td width="35%" align="center" valign="middle">
+        <a href="https://coastapp.in/" target="_blank">
+          <img src="https://coastapp.in/shots/detail.jpg" width="220" alt="Coast App Trip Detail" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.4);" />
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
@@ -91,9 +132,9 @@ My work bridges **mathematical AI research** and **practical systems engineering
 
 ### 📱 Full-Stack, Mobile Apps & Operating Systems
 
-| Project | Description & Key Highlights | Tech Stack | Repository |
+| Project | Description & Key Highlights | Tech Stack | Links |
 | :--- | :--- | :--- | :--- |
-| [**Coast Ride-Sharing App**](https://github.com/praann07/coast-app) | **Peer-to-Peer Transit Mobile Platform**<br/>Full-stack ride-sharing application with real-time geospatial driver matching, ride tracking, dynamic fare calculation, and secure authentication. | React Native, Expo, Supabase, PostgreSQL | [coast-app](https://github.com/praann07/coast-app) • [website](https://github.com/praann07/thisiscoast-site) |
+| [**Coast Mobile App**](https://github.com/praann07/coast-app) | **Peer-to-Peer Transit Mobile Platform (Production)**<br/>Full-stack ride-sharing application with real-time geospatial driver matching, 60–180m privacy location fuzzing, and direct settlement. | React Native, Expo, Supabase, PostgreSQL | [Google Play](https://play.google.com/store/apps/details?id=in.coastapp.app&hl=en) • [Website](https://coastapp.in/) • [Repo](https://github.com/praann07/coast-app) |
 | [**FitStack Gym Progression**](https://github.com/praann07/FitStack) | **Fitness & Workout Progression Tracker**<br/>Complete training tracking app with exercise telemetry, 1RM calculations, progressive overload analytics, and cloud synchronization. | TypeScript, React Native, Node.js | [FitStack](https://github.com/praann07/FitStack) • [weighsfit](https://github.com/praann07/weighsfit-local-course-project) |
 | [**OS Fault & Recovery Simulator**](https://github.com/praann07/os-fault-simulator) | **Kernel Fault Injection & Deadlock Simulator**<br/>Operating system simulator featuring process scheduling, deadlock detection (Banker's Algorithm), and hardware fault injection with a C engine and Flask dashboard. | C, Python, Flask, HTML5 | [os-fault-simulator](https://github.com/praann07/os-fault-simulator) |
 | [**Job Scheduling Simulator**](https://github.com/praann07/-Job-Scheduling-Simulator-in-OS) | **CPU Scheduling Algorithms Visualizer**<br/>Simulates operating system process scheduling (FCFS, SJF, Round Robin, Priority), cutting mean wait times by 15% through optimized priority queues. | Java, Python, JupyterLab | [-Job-Scheduling-Simulator](https://github.com/praann07/-Job-Scheduling-Simulator-in-OS) |
@@ -175,6 +216,10 @@ My work bridges **mathematical AI research** and **practical systems engineering
   <p>
     <a href="mailto:mspb23012007@gmail.com">
       <img src="https://img.shields.io/badge/Personal_Email-mspb23012007%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+    &nbsp;&nbsp;
+    <a href="mailto:cb.sc.u4aie24029@cb.students.amrita.edu">
+      <img src="https://img.shields.io/badge/Student_Email-Amrita_University-4285F4?style=for-the-badge&logo=google-messages&logoColor=white" alt="Student Email" />
     </a>
     &nbsp;&nbsp;
     <a href="https://www.linkedin.com/in/som-praneeth-babu-mamidala-788441216/">
