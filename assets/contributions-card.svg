@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 140" width="100%" height="140" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&amp;family=JetBrains+Mono:wght@500;700&amp;display=swap');
+
+      .num {
+        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-weight: 800;
+        font-size: 28px;
+        fill: #FFFFFF;
+        letter-spacing: -0.5px;
+      }
+
+      .num-accent {
+        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-weight: 800;
+        font-size: 28px;
+        fill: #38BDF8;
+        letter-spacing: -0.5px;
+      }
+
+      .label {
+        font-family: 'JetBrains Mono', Consolas, monospace;
+        font-weight: 600;
+        font-size: 11px;
+        fill: #94A3B8;
+        letter-spacing: 0.5px;
+      }
+
+      .sub-label {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-weight: 500;
+        font-size: 11px;
+        fill: #64748B;
+      }
+
+      .cell {
+        rx: 3px;
+      }
+    </style>
+
+    <linearGradient id="bgBox" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F19" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+
+    <linearGradient id="glowLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0" />
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="940" height="140" rx="12" fill="url(#bgBox)" stroke="#1E293B" stroke-width="1.2" />
+  
+  <!-- Subtle top accent line -->
+  <line x1="40" y1="1" x2="900" y2="1" stroke="url(#glowLine)" stroke-width="2" />
+
+  <!-- Metric 1: 469 Total Contributions -->
+  <g transform="translate(42, 28)">
+    <text x="0" y="32" class="num-accent">469</text>
+    <text x="0" y="56" class="label">CONTRIBUTIONS</text>
+    <text x="0" y="74" class="sub-label">Recorded in the last year</text>
+  </g>
+
+  <!-- Divider 1 -->
+  <line x1="260" y1="28" x2="260" y2="112" stroke="#1E293B" stroke-width="1.2" />
+
+  <!-- Metric 2: 41 Repositories -->
+  <g transform="translate(290, 28)">
+    <text x="0" y="32" class="num">41</text>
+    <text x="0" y="56" class="label">REPOSITORIES</text>
+    <text x="0" y="74" class="sub-label">Research, apps &amp; systems</text>
+  </g>
+
+  <!-- Divider 2 -->
+  <line x1="480" y1="28" x2="480" y2="112" stroke="#1E293B" stroke-width="1.2" />
+
+  <!-- Metric 3: 194 Direct Commits -->
+  <g transform="translate(510, 28)">
+    <text x="0" y="32" class="num">194</text>
+    <text x="0" y="56" class="label">DIRECT COMMITS</text>
+    <text x="0" y="74" class="sub-label">Clean git version control</text>
+  </g>
+
+  <!-- Divider 3 -->
+  <line x1="700" y1="28" x2="700" y2="112" stroke="#1E293B" stroke-width="1.2" />
+
+  <!-- Metric 4: Pull Requests & Reviews -->
+  <g transform="translate(730, 28)">
+    <text x="0" y="32" class="num">14+</text>
+    <text x="0" y="56" class="label">PRs &amp; ISSUES</text>
+    <text x="0" y="74" class="sub-label">Collaborative open-source</text>
+  </g>
+</svg>

@@ -5,7 +5,7 @@
 
   <!-- Dynamic Typing Subtitle -->
   <a href="https://github.com/PRAANN07">
-    <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=600&size=20&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&height=45&lines=Creator+of+Coast+(Live+on+Google+Play+Store);AI+%26+Deep+Learning+Researcher;Computer+Vision+%26+Wavelet+Image+Deblurring;Mechanistic+Interpretability+%26+Causal+Tracing;Robotics+%26+Autonomous+Drone+Control;Full-Stack+Mobile+%26+Systems+Engineer" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=600&size=20&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&height=45&lines=Creator+of+Coast+(Live+on+Google+Play+Store);469+Contributions+in+the+Last+Year;AI+%26+Deep+Learning+Researcher;Computer+Vision+%26+Wavelet+Image+Deblurring;Mechanistic+Interpretability+%26+Causal+Tracing;Robotics+%26+Autonomous+Drone+Control;Full-Stack+Mobile+%26+Systems+Engineer" alt="Typing SVG" />
   </a>
 
   <br/>
@@ -56,11 +56,11 @@ I am the creator of **[Coast](https://play.google.com/store/apps/details?id=in.c
         <p><strong>"You're not the only one heading that way."</strong> Coast is a community-driven ride-sharing mobile application that connects commuters heading along the same route to share rides and split transit costs.</p>
         <p><strong>Key Engineering &amp; Architectural Features:</strong></p>
         <ul>
-          <li><strong>Cross-Platform Mobile Client:</strong> Engineered with React Native and Expo for performant Android deployment.</li>
-          <li><strong>Real-Time Geospatial Backend:</strong> Powered by Supabase &amp; PostgreSQL with spatial distance matching.</li>
-          <li><strong>Privacy-First Location Fuzzing:</strong> User coordinates are algorithmically nudged 60–180m before database storage so precise home/work locations are never stored.</li>
-          <li><strong>Gated Contact Sharing:</strong> Direct contact phone numbers are only unlocked upon mutual ride confirmation.</li>
-          <li><strong>Zero-Commission Model:</strong> Peer-to-peer direct settlement with no in-app cut or platform surcharge.</li>
+          <li><strong>Cross-Platform Mobile Client:** Engineered with React Native and Expo for performant Android deployment.</li>
+          <li><strong>Real-Time Geospatial Backend:** Powered by Supabase &amp; PostgreSQL with spatial distance matching.</li>
+          <li><strong>Privacy-First Location Fuzzing:** User coordinates are algorithmically nudged 60–180m before database storage so precise home/work locations are never stored.</li>
+          <li><strong>Gated Contact Sharing:** Direct contact phone numbers are only unlocked upon mutual ride confirmation.</li>
+          <li><strong>Zero-Commission Model:** Peer-to-peer direct settlement with no in-app cut or platform surcharge.</li>
         </ul>
         <p>
           <a href="https://play.google.com/store/apps/details?id=in.coastapp.app&hl=en">
@@ -181,7 +181,40 @@ I am the creator of **[Coast](https://play.google.com/store/apps/details?id=in.c
 
 ---
 
-### 📊 GitHub Activity & Real-Time Stats
+### 📈 Activity & Contribution Matrix
+
+<div align="center">
+  <img src="assets/contributions-card.svg" width="100%" alt="469 Contributions in the Last Year" />
+</div>
+
+<br/>
+
+<div align="center">
+  <a href="https://github.com/praann07">
+    <img src="https://img.shields.io/badge/Annual_Activity-469_Contributions_Last_Year-38BDF8?style=for-the-badge&logo=github&logoColor=white" alt="469 Contributions" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/praann07?tab=repositories">
+    <img src="https://img.shields.io/badge/Total_Repositories-41_Repositories-6366F1?style=for-the-badge&logo=git&logoColor=white" alt="41 Repositories" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/praann07">
+    <img src="https://img.shields.io/badge/Code_Commits-194_Direct_Commits-10B981?style=for-the-badge&logo=git-commit&logoColor=white" alt="194 Commits" />
+  </a>
+</div>
+
+<br/>
+
+<!-- Snake Animation -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/praann07/praann07/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/praann07/praann07/output/github-contribution-grid-snake.svg">
+    <img alt="Contribution Snake Animation" src="https://raw.githubusercontent.com/praann07/praann07/output/github-contribution-grid-snake-dark.svg" width="100%">
+  </picture>
+</div>
+
+<br/>
 
 <div align="center">
   <table border="0">
