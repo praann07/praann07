@@ -5,7 +5,7 @@
 
   <!-- Dynamic Typing Subtitle -->
   <a href="https://github.com/PRAANN07">
-    <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=600&size=20&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&height=45&lines=Creator+of+Coast+(Live+on+Google+Play+Store);469+Contributions+in+the+Last+Year;AI+%26+Deep+Learning+Researcher;Computer+Vision+%26+Wavelet+Image+Deblurring;Mechanistic+Interpretability+%26+Causal+Tracing;Robotics+%26+Autonomous+Drone+Control;Full-Stack+Mobile+%26+Systems+Engineer" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=600&size=20&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&height=45&lines=Creator+of+Coast+(Live+on+Google+Play+Store);471+Contributions+in+the+Last+Year;AI+%26+Deep+Learning+Researcher;Computer+Vision+%26+Wavelet+Image+Deblurring;Mechanistic+Interpretability+%26+Causal+Tracing;Robotics+%26+Autonomous+Drone+Control;Full-Stack+Mobile+%26+Systems+Engineer" alt="Typing SVG" />
   </a>
 
   <br/>
@@ -28,6 +28,55 @@
       <img src="https://img.shields.io/badge/Email-mspb23012007%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Personal Email" />
     </a>
   </p>
+</div>
+
+---
+
+### 📈 Activity Skyline & Contribution Velocity
+
+<div align="center">
+  <img src="assets/activity-skyline.svg" width="100%" alt="Annual Contribution Velocity & Skyline" />
+</div>
+
+<br/>
+
+<div align="center">
+  <a href="https://github.com/praann07">
+    <img src="https://img.shields.io/badge/Annual_Activity-471_Contributions_Last_Year-38BDF8?style=for-the-badge&logo=github&logoColor=white" alt="471 Contributions" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/praann07?tab=repositories">
+    <img src="https://img.shields.io/badge/Total_Repositories-41_Repositories-6366F1?style=for-the-badge&logo=git&logoColor=white" alt="41 Repositories" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/praann07">
+    <img src="https://img.shields.io/badge/Code_Commits-194_Direct_Commits-10B981?style=for-the-badge&logo=git-commit&logoColor=white" alt="194 Commits" />
+  </a>
+</div>
+
+<br/>
+
+<div align="center">
+  <table border="0">
+    <tr>
+      <td>
+        <a href="https://github.com/PRAANN07">
+          <img src="https://github-readme-stats.vercel.app/api?username=PRAANN07&show_icons=true&theme=tokyonight&hide_border=false" alt="PRAANN07's GitHub Stats" />
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/PRAANN07">
+          <img src="https://streak-stats.demolab.com?user=PRAANN07&theme=tokyonight&hide_border=false" alt="PRAANN07's Streak Stats" />
+        </a>
+      </td>
+    </tr>
+  </table>
+
+  <br/>
+
+  <a href="https://github.com/PRAANN07">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PRAANN07&layout=compact&theme=tokyonight&hide_border=false" alt="Top Languages" />
+  </a>
 </div>
 
 ---
@@ -177,66 +226,6 @@ I am the creator of **[Coast](https://play.google.com/store/apps/details?id=in.c
       </td>
     </tr>
   </table>
-</div>
-
----
-
-### 📈 Activity & Contribution Matrix
-
-<div align="center">
-  <img src="assets/contributions-card.svg" width="100%" alt="469 Contributions in the Last Year" />
-</div>
-
-<br/>
-
-<div align="center">
-  <a href="https://github.com/praann07">
-    <img src="https://img.shields.io/badge/Annual_Activity-469_Contributions_Last_Year-38BDF8?style=for-the-badge&logo=github&logoColor=white" alt="469 Contributions" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/praann07?tab=repositories">
-    <img src="https://img.shields.io/badge/Total_Repositories-41_Repositories-6366F1?style=for-the-badge&logo=git&logoColor=white" alt="41 Repositories" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/praann07">
-    <img src="https://img.shields.io/badge/Code_Commits-194_Direct_Commits-10B981?style=for-the-badge&logo=git-commit&logoColor=white" alt="194 Commits" />
-  </a>
-</div>
-
-<br/>
-
-<!-- Snake Animation -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/praann07/praann07/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/praann07/praann07/output/github-contribution-grid-snake.svg">
-    <img alt="Contribution Snake Animation" src="https://raw.githubusercontent.com/praann07/praann07/output/github-contribution-grid-snake-dark.svg" width="100%">
-  </picture>
-</div>
-
-<br/>
-
-<div align="center">
-  <table border="0">
-    <tr>
-      <td>
-        <a href="https://github.com/PRAANN07">
-          <img src="https://github-readme-stats.vercel.app/api?username=PRAANN07&show_icons=true&theme=tokyonight&hide_border=false" alt="PRAANN07's GitHub Stats" />
-        </a>
-      </td>
-      <td>
-        <a href="https://github.com/PRAANN07">
-          <img src="https://streak-stats.demolab.com?user=PRAANN07&theme=tokyonight&hide_border=false" alt="PRAANN07's Streak Stats" />
-        </a>
-      </td>
-    </tr>
-  </table>
-
-  <br/>
-
-  <a href="https://github.com/PRAANN07">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PRAANN07&layout=compact&theme=tokyonight&hide_border=false" alt="Top Languages" />
-  </a>
 </div>
 
 ---
