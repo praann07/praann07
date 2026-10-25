@@ -35,7 +35,7 @@
 ### Activity
 
 <div align="center">
-  <img src="assets/activity-skyline.svg" width="100%" alt="Annual Contribution Velocity & Skyline" />
+  <img src="https://ghchart.rshah.org/praann07" width="100%" alt="Contribution Graph" />
 </div>
 
 <br/>
