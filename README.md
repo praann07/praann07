@@ -14,9 +14,9 @@ I work on understanding and editing what language models know, on image deblurri
 | [microsoft/PyRIT](https://github.com/microsoft/PyRIT/pull/3154) | Add a request timeout to remote dataset downloads | Merged |
 | [NVIDIA/NeMo-Agent-Toolkit](https://github.com/NVIDIA/NeMo-Agent-Toolkit/pull/2443) | Stop logging the expanded config when `--override` is used, which could expose secrets | Merged |
 | [mozilla-ai/otari](https://github.com/mozilla-ai/otari/pull/2648) | `guardrails validate` warns when a `when_changed` glob matches no file | Merged |
+| [TransformerLensOrg/TransformerLens](https://github.com/TransformerLensOrg/TransformerLens/pull/1977) | Reject negative `temperature` and non-positive `repetition_penalty` in `sample_logits` | Merged |
 | [microsoft/PyRIT](https://github.com/microsoft/PyRIT/pull/3799) | Match `%` and `_` literally in the objective and scenario name filters | Open |
 | [EleutherAI/delphi](https://github.com/EleutherAI/delphi/pull/196) | Keep `n_train` examples when `train_type` is `mix` (float flooring dropped examples) | Open |
-| [TransformerLensOrg/TransformerLens](https://github.com/TransformerLensOrg/TransformerLens/pull/1977) | Reject negative `temperature` and non-positive `repetition_penalty` in `sample_logits` | Open |
 | [SylphAI-Inc/AdalFlow](https://github.com/SylphAI-Inc/AdalFlow/pull/511) | Make `append_to_jsonl` safe across threads | Open |
 | [arc53/DocsGPT](https://github.com/arc53/DocsGPT/pull/3062) | Read markdown, rst and csv files as UTF-8 | Open |
 
