@@ -5,7 +5,9 @@ I work on understanding and editing what language models know, on image deblurri
 
 - **Interpretability:** cross-lingual causal tracing and rank-1 editing in Llama-3.2-3B and Gemma-2-2B ([babel-effect](https://github.com/praann07/babel-effect), paper draft in preparation).
 - **Computer vision:** WaveFusion-Net, a dual-branch spatial-wavelet deblurring network (9.48M parameters), IEEE NIGERCON 2026 ([code](https://github.com/praann07/wavefusion-net-nigercon2026)).
-- **Shipped product:** Coast, a peer-to-peer ride-matching Android app built with React Native, Expo and Supabase ([coastapp.in](https://coastapp.in/)).
+- **Shipped products:** Coast, a ride-pooling Android app on Google Play built with React Native, Expo and Supabase ([coastapp.in](https://coastapp.in/)), and FitStack, a training and nutrition tracker ([weighsfit.in](https://weighsfit.in/)).
+
+Portfolio: **[praann07.github.io](https://praann07.github.io/)**
 
 ## Open-source contributions
 
@@ -18,6 +20,7 @@ I work on understanding and editing what language models know, on image deblurri
 | [microsoft/PyRIT](https://github.com/microsoft/PyRIT/pull/3799) | Match `%` and `_` literally in the objective and scenario name filters | Merged |
 | [arc53/DocsGPT](https://github.com/arc53/DocsGPT/pull/3062) | Read markdown, rst and csv files as UTF-8, honoring the caller's decoding-error policy | Merged |
 | [EleutherAI/delphi](https://github.com/EleutherAI/delphi/pull/196) | Keep `n_train` examples when `train_type` is `mix` (float flooring dropped examples) | Open |
+| [TransformerLensOrg/TransformerLens](https://github.com/TransformerLensOrg/TransformerLens/pull/2041) | Validate `confidence` in `success_rate_ci` | Open |
 | [SylphAI-Inc/AdalFlow](https://github.com/SylphAI-Inc/AdalFlow/pull/511) | Make `append_to_jsonl` safe across threads | Open |
 | [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw/pull/11831) | Add a Code of Conduct | Open |
 | [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw/pull/11833) | Add a security policy (`SECURITY.md`) | Open |
@@ -26,6 +29,8 @@ I work on understanding and editing what language models know, on image deblurri
 
 | Project | What it is | Result |
 |---|---|---|
+| [FitStack](https://github.com/praann07/FitStack) | Training and nutrition tracker: React 19, Vite, TypeScript, Supabase | Live at [weighsfit.in](https://weighsfit.in/); adaptive TDEE estimator, plateau detection |
+| [Juriscope](https://github.com/praann07/Juriscope) | Legal-document RAG assistant: FastAPI, Pinecone, LangChain, Llama 3.3 on Groq | PDF/TXT up to 20 MB, per-session source attribution |
 | [babel-effect](https://github.com/praann07/babel-effect) | Do LLMs store facts in language-specific circuits? Pre-registered hypotheses, 1059 claims in a verifiable manifest | English-Spanish causal-profile alignment above the shuffled null (z = 4.0 Llama, 4.8 Gemma) |
 | [WaveFusion-Net](https://github.com/praann07/wavefusion-net-nigercon2026) | Spatial-wavelet fusion for blind image deblurring | 9.48M parameters, SHA256 split-leakage checks |
 | [Knee OA grading](https://github.com/praann07/knee-oa-kl-grading-resnet-scratch) | ResNet ensemble trained from scratch, with Grad-CAM | 65.7% accuracy, kappa 0.813 |
@@ -36,8 +41,8 @@ I work on understanding and editing what language models know, on image deblurri
 
 ## Stack
 
-Python, PyTorch, TransformerLens, FastAPI, Ollama, React Native, Expo, TypeScript, PostgreSQL, Supabase.
+Python, TypeScript, PyTorch, TransformerLens, FastAPI, LangChain, Ollama, React, React Native, Expo, PostgreSQL, Supabase, Redis, Docker.
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/som-praneeth-babu-mamidala-788441216/)
+[praneethwork07@gmail.com](mailto:praneethwork07@gmail.com) · [LinkedIn](https://www.linkedin.com/in/som-praneeth-babu-mamidala-788441216/) · [Portfolio](https://praann07.github.io/)
